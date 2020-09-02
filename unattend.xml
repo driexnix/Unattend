@@ -124,22 +124,21 @@
                   </LocalAccount>
               </LocalAccounts>
           </UserAccounts>
-          <TimeZone>Central European Standard Time</TimeZone>
           <AutoLogon>
               <Enabled>true</Enabled>
               <LogonCount>1</LogonCount>
               <Username>gebruiker</Username>
               <Password>
-                  <PlainText>false</PlainText>
+                  <PlainText>true</PlainText>
                   <Value>password123</Value>
               </Password>
           </AutoLogon>
           <FirstLogonCommands>
               <SynchronousCommand wcm:action="add">
                   <RequiresUserInput>false</RequiresUserInput>
-                  <Description>Opsi tasks</Description>
+                  <Description>dostuff</Description>
                   <Order>1</Order>
-                  <CommandLine>cmd.exe /c C:\opsi\postinst.cmd</CommandLine>
+                  <CommandLine>cmd.exe</CommandLine>
               </SynchronousCommand>
           </FirstLogonCommands>
 
