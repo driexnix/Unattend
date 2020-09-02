@@ -127,7 +127,7 @@
                </Password>
                <Username>Administrador</Username>
                <Enabled>true</Enabled>
-               <LogonCount>5</LogonCount>
+               <LogonCount>1</LogonCount>
            </AutoLogon>
            <UserAccounts>
                 <AdministratorPassword>
